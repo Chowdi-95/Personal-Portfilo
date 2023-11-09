@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="header">
+        <div class="container">
+            <nav>
+                <ul class="list-items">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Serivces</a></li>
+                    <li><a href="#">Protfolio</a></li>
+                    <li><a href="#">Contact Us</a></li>
+
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Java Full-Stack Developer</p>
+                <h1>Hi I'm <span>Chowdaiah</span> <br>from India</h1>
+
+            </div>
+        </div>
+    </div>
+    <div class="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/IMG_20230226_104727.jpg" alt="" />
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am a committed and adaptable software engineer with a solid
+                        background in HTML, CSS, JavaScript, and Java. Creating and utilizing
+                        effective data structures to address challenging issues is my passion.
+                        I enjoy coming up with sophisticated and useful answers to different software problems.
+                        I strive to produce high-caliber code and maintain my position at the forefront of technology
+                        by having a strong eye for detail and a dedication to lifelong learning.
+                        I offer a multitude of talents and a strong work ethic to every project I take on,
+                        whether it's web development or data manipulation.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Core/Advance Java</span><br>Designing Java Applications</li>
+                            <li><span>HTML/CSS/JavaScript</span><br>Web Developement</li>
+                            <li><span>Git/Github</span><br>Project Depolyment</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Mar 2023- Till Now</span><br> Java Trainee Engineer</li>
+                            <li><span></span>Palle Technologies</li>
+                            <li><span></span>Bangalore</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>M.Sc</span><br>Computer Science</li>
+                            <li><span>Rayalaseema University</span><br>Kurnool</li>
+                            <li><span>CGPA</span><br>8.2</li>
+                            <li><span>Pass-out</span><br>2023</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Services</h1>
+            <div class="service-list">
+                <div>
+                    <h2>Web Site Designing</h2>
+                    <p>My website design is a one-of-a-kind fusion of creativity and utility,
+                        created with love and individual flare. My distinctive touch permeates every aspect,
+                        from color scheme to layout, to create
+                        a customized and immersive online environment that perfectly reflects my vision.
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <h2>Teaching</h2>
+                    <p>The great art of teaching is to ignite minds and promote progress.
+                        Teachers mold future leaders
+                        by providing information, empathy, and motivation to their students.
+                        It's a vibrant dance
+                        that cultivates each student's potential,
+                        ignites curiosity, and exchanges wisdom.
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <h2>Content Developement</h2>
+                    <p>The strategic alchemy of creating interesting and pertinent content is called content
+                        development.
+                        It takes investigation, imagination, and accuracy to create captivating content for audiences.
+                        It creates stories that are compelling and have a lasting effect using both words and images.
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---------Portfolio------------------->
+    <div id="portfolio">
+        <div class="container">
+            <div class="sub-title">My Work</div>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/landing+page+design+50.jpg" alt="">
+                    <div class="layer">
+                        <h3>Landing Web page</h3>
+                        <p>Captivating landing page welcoming you
+                            with vibrant visuals, concise copy, and
+                            intuitive navigation. Instantly engages visitors,
+                            conveying the essence of your brand
+                            and compelling them to explore further.</p>
+                        <a href="#"></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/131783011-940c2e41-1eea-4463-b1f5-b3454ed22329.jpg" alt="">
+                    <div class="layer">
+                        <h3>Website Cloning</h3>
+                        <p>Creating a mirrored website to enhance user experience and accessibility,
+                             ensuring seamless navigation for a broader audience. 
+                            This positive approach involves replicating design elements 
+                            while respecting intellectual property rights.</p>
+                        <a href="#"></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/wood-tic-tac-toe-game~27_1075c.jpg" alt="">
+                    <div class="layer">
+                        <h3>Tic-Tac-Toe Game</h3>
+                        <p>Tic Tac Toe is an engaging strategy game that brings joy to players of all ages.
+                             Simple yet stimulating, 
+                            it fosters strategic thinking and friendly competition.</p>
+                        <a href="#"></a>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+    </script>
+
+</body>
+
+</html>
